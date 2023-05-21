@@ -1,13 +1,7 @@
 import itertools
-from datasets import Dataset, DatasetDict
-# from transformers import Trainer, AutoTokenizer, AutoModelForSequenceClassification
-import numpy as np
+from datasets import Dataset
 import json
 import joblib
-
-# TOKENIZER = AutoTokenizer.from_pretrained("raruidol/ArgumentMining-EN-ARI-AIF-RoBERTa_L")
-# MODEL = AutoModelForSequenceClassification.from_pretrained("raruidol/ArgumentMining-EN-ARI-AIF-RoBERTa_L")
-
 
 def preprocess_data(filexaif):
     idents = []
