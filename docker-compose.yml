@@ -1,0 +1,9 @@
+version: '2.2'
+
+services:
+ amf-rp:
+  container_name: amf-rp
+  build: .
+  ports:
+  - "8000:5000"
+
